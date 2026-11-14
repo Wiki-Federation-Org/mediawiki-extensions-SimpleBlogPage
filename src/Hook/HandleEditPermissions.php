@@ -4,7 +4,7 @@ namespace MediaWiki\Extension\SimpleBlogPage\Hook;
 
 use MediaWiki\Permissions\Hook\GetUserPermissionsErrorsHook;
 
-class HandleEditPermissions implements getUserPermissionsErrorsHook {
+class HandleEditPermissions implements GetUserPermissionsErrorsHook {
 
 	/**
 	 * @inheritDoc
